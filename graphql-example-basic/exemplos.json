@@ -1,0 +1,59 @@
+{
+  "name": "Henrique",
+  "full_name": "Henrique Chaves",
+  "age": 30,
+  "city": "Belo Horizonte",
+  "tag": "hnrqchvs",
+  "url": "https://github.com/henriquechaves",
+  "knowledge": [
+    {
+      "language": "Javascript",
+      "frameworks": ["express.js", "hapi.js", "ReactJs"]
+    },
+    {
+      "language": "C#",
+      "frameworks": [".Net"]
+    },
+    {
+      "language": "Python",
+      "frameworks": []
+    }
+  ]
+}
+
+query {
+  user(name:"Joao") {
+    name
+    age
+    city
+    knowledge {
+      language
+    }
+  }
+}
+
+// Retorno da query
+
+{
+  "data": {
+    "user": {
+      "name": "Henrique",
+      "age": 30,
+      "city": "Belo Horizonte",
+      "knowledge": [
+        {
+          "language": "Javascript"
+        },
+        {
+          "language": "C#"
+        },
+        {
+          "language": "Python"
+        }
+      ]
+    }
+  }
+}
+
+Essas requisições podem ser feitas pelo client utilizando o método GET, a url da requisição na rota /graphql do exemplo acima seria igual a:
+/graphql?query={user(name:”user”){name,age,city,knowledge{language}}}

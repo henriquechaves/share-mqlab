@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Jonathan",
+        "age": 24,
+        "knowledge": [
+            {
+                "language": "Javascript",
+                "frameworks": [
+                    "express.js",
+                    "hapi.js",
+                    "ReactJS"
+                ]
+            },
+            {
+                "language": "Ruby",
+                "frameworks": [
+                    "Rails"
+                ]
+            },
+            {
+                "language": "PHP",
+                "frameworks": [
+                    "Laravel",
+                    "yii2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Henrique",
+        "age": 20,
+        "knowledge": [
+            {
+                "language": "Javascript",
+                "frameworks": [
+                    "ReactJS",
+                    "Hapi.js"
+                ]
+            },
+            {
+                "language": "Java",
+                "frameworks": [
+                    "Play",
+                    "Spring"
+                ]
+            },
+            {
+                "language": "Python",
+                "frameworks": [
+                    "Django"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Diego",
+        "age": 20,
+        "knowledge": [
+            {
+                "language": "Javascript",
+                "frameworks": [
+                    "ReactJS",
+                    "express.js"
+                ]
+            },
+            {
+                "language": "Ruby",
+                "frameworks": [
+                    "Ruby on Rails"
+                ]
+            },
+            {
+                "language": "Python",
+                "frameworks": [
+                    "Django"
+                ]
+            }
+        ]
+    }
+]
